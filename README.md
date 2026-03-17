@@ -13,13 +13,13 @@ A lightweight Docker image based on **Debian Bookworm Slim**, bundled with Pando
 ## 🚀 Usage Examples
 
 ✅ View Pandoc version  
-`docker run --rm bishmapitamah/pandocv3.7.0.2:version1 --latest`
+`docker run --rm ~home/pandocv3.7.0.2:version1 --latest`
 
 ✅ Convert Markdown to PDF  
-`docker run --rm -v $(pwd):/data bishmapitamah/pandocv3.7.0.2:latest /data/input.md -o /data/output.pdf`
+`docker run --rm -v $(pwd):/data ~home/pandocv3.7.0.2:latest /data/input.md -o /data/output.pdf`
 
 ✅ Convert Markdown to DOCX  
-`docker run --rm -v $(pwd):/data bishmapitamah/pandocv3.7.0.2:latest /data/input.md -o /data/output.docx`
+`docker run --rm -v $(pwd):/data ~home/pandocv3.7.0.2:latest /data/input.md -o /data/output.docx`
 
 📁 Working Directory  
 All operations run inside `/workspace` by default. Use `-v $(pwd):/workspace` or specify your own working directory when running the container.
