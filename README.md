@@ -30,7 +30,7 @@ This image is configured with:
 `CMD ["--help"]`
 
 This means you can treat it like a CLI tool:  
-`docker run --rm bishmapitamah/pandocv3.7.0.2:version1 input.md -o output.pdf`
+`docker run --rm ~home/pandocv3.7.0.2:version1 input.md -o output.pdf`
 
 📧 Maintainer  
 Maintained by Gaurav Basyal  
